@@ -1,0 +1,139 @@
+body {
+    background-image: url('../img/fond.png');
+}
+
+header {
+    background-color: #34b1b2;
+    color: white;
+    margin-left: -12px;
+    margin-right: -12px;
+    border: 3px solid #1c7c7c;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 12px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.presentation {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    color: #444454;
+    max-width: 700px;
+}
+
+.menu {
+    max-width: 400px;
+    margin: auto;
+    background-color: #34b1b2;
+}
+
+.todayspecial {
+    background-color: #B6DEDC;
+    max-width: 50%;
+    text-align: center;
+}
+
+.imagerecipe {
+    float: left;
+    border-radius: 50%;
+}
+
+.recipe1 {
+    width: 300px;
+    text-align: left;
+    margin: 10px;
+}
+
+.recipes {
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+button {
+    background-color: #34b1b2;
+    padding: 10px;
+    color: white;
+    border: none;
+    text-align: right;
+    position: relative;
+    float: right;
+}
+
+button i {
+    padding: 5px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 3px;
+    color: #34b1b2;
+}
+
+.recipe1 i {
+    color: #34b1b2;
+}
+
+h3 {
+    text-align: center;
+}
+
+.spantitlerecipe {
+    color: black;
+}
+
+.aside {
+    background-color: #34b1b2;
+    color: white;
+    max-width: 15%;
+    margin-left: 12px;
+    padding: 15px;
+    border: 8px solid #1c7c7c;
+}
+
+.middlepage {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.aside h5 i {
+    color: #B6DEDC;
+}
+
+.aside h5 {
+    color: #1f9993;
+}
+
+.asidewithimage {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 150px;
+    top: 470px
+}
+
+.aside {
+    position: relative;
+}
+
+footer {
+    clear: both;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footerlink {
+    color: indigo;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+}
